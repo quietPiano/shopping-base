@@ -9,7 +9,11 @@ import org.springframework.data.redis.connection.RedisSentinelConfiguration;
 
 import java.util.List;
 
-
+/**
+* @Description:  Redis配置类
+* @Author: zhangsong
+* @Date: 2019/9/7
+*/
 @Configuration
 @PropertySource( value = "classpath:application.yml", factory = YamlPropertyLoaderFactory.class)
 @ConfigurationProperties(prefix = "spring.redis")

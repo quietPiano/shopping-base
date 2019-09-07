@@ -26,7 +26,11 @@ import redis.clients.jedis.JedisPoolConfig;
 
 import javax.annotation.Resource;
 
-
+/**
+* @Description: Redis 基础类配置
+* @Author: zhangsong
+* @Date: 2019/9/7
+*/
 @Slf4j
 @Configuration
 @EnableCaching

@@ -2,6 +2,11 @@ package com.dragon.dragoncache.config;
 
 import lombok.Data;
 
+/** 
+* @Description: Redis服务器详细设置 
+* @Author: zhangsong
+* @Date: 2019/9/7 
+*/ 
 @Data
 public class RedisServer {
     private int database;

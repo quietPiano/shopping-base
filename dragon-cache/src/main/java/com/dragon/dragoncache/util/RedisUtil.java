@@ -7,6 +7,11 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
+/**
+* @Description: Redis工具类
+* @Author: zhangsong
+* @Date: 2019/9/7
+*/
 @Component
 public class RedisUtil {
 
