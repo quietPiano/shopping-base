@@ -1,0 +1,66 @@
+#spring:
+#  redis:
+#    database: 0
+#    url: 127.0.0.1
+#    port: 6379
+#    timeout: 2000
+#    sentinel:
+#      master: 127.0.0.1:6379
+#      nodes: 127.0.0.2:6379,127.0.0.1:6379,127.0.0.3:6379,127.0.0.4:6379
+#    jedis:
+#      pool:
+#        time-between-eviction-runs:  1000
+#        max-idle: 8
+#        min-idle: 0
+#        max-active: 8
+#        max-wait: -1
+
+
+spring:
+  redis:
+    master:
+      database: 0
+      host: 127.0.0.1
+      url:
+      password:
+      timeout: 2000
+      port: 6379
+      max-active: 8 # 最大存活
+      max-wait: -1 #最大等待时间
+      min-idle: 0 #最小空闲数量
+      max-idle: 8 #最大空闲数量
+      time-between-eviction-runs: 3000 #最大存活时间
+    slave:
+      - database: 0
+        host: 2222
+        url: 222
+        password:
+        timeout: 2000
+        max-active: 8 # 最大存活
+        max-wait: -1 #最大等待时间
+        min-idle: 0 #最小空闲数量
+        max-idle: 8 #最大空闲数量
+        time-between-eviction-runs: 3000 #最大存活时间
+      - database: 0
+        host: 2222
+        url: 222
+        password:
+        timeout: 2000
+        max-active: 8 # 最大存活
+        max-wait: -1 #最大等待时间
+        min-idle: 0 #最小空闲数量
+        max-idle: 8 #最大空闲数量
+        time-between-eviction-runs: 3000 #最大存活时间
+      - database: 0
+        host: 2222
+        url: 222
+        password:
+        timeout: 2000
+        max-active: 8 # 最大存活
+        max-wait: -1 #最大等待时间
+        min-idle: 0 #最小空闲数量
+        max-idle: 8 #最大空闲数量
+        time-between-eviction-runs: 3000 #最大存活时间
+#
+#
+#
