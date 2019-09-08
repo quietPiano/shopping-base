@@ -37,6 +37,7 @@
         <java.version>1.8</java.version>
         <springboot.version>2.1.8.RELEASE</springboot.version>
         <jackson.version>2.9.8</jackson.version>
+        <httpClient.version>4.5.7</httpClient.version>
     </properties>
 
     <dependencyManagement>
@@ -101,6 +102,11 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpClient.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
