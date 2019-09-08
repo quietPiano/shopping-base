@@ -1,4 +1,4 @@
-package com.dragon.dragoncommon.util.yml;
+package com.dragon.dragoncommon.properties;
 
 import org.springframework.boot.env.YamlPropertySourceLoader;
 import org.springframework.core.env.PropertySource;
