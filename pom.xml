@@ -37,7 +37,7 @@
         <java.version>1.8</java.version>
         <springboot.version>2.1.8.RELEASE</springboot.version>
         <jackson.version>2.9.8</jackson.version>
-        <httpClient.version>4.5.7</httpClient.version>
+        <httpClient.version>4.5.13</httpClient.version>
     </properties>
 
     <dependencyManagement>
